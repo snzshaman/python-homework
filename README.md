@@ -24,7 +24,13 @@ Each program supports input both from command-line arguments and from user input
 
 ## Как использовать / How to use
 
-Для запуска программы из командной строки используйте:
-! python solution.py 873
-! python ladder.py 5
-! python equation.py 1 5 6
+Для запуска программы из командной строки используйте: 
+
+python solution.py 873 
+
+python ladder.py 5
+
+python equation.py 1 5 6
+  
+Спасибо за внимание!  
+Thank you for your attention!
