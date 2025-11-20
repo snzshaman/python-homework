@@ -3,7 +3,7 @@ from functools import wraps
 from typing import Any, Callable
 
 
-def to_json(func: Callable[..., Any]) -> Callable[..., str]):
+def to_json(func: Callable[..., Any]) -> Callable[..., str]:
     """
     Декоратор, сериализующий результат функции в JSON-строку.
 
@@ -18,4 +18,5 @@ def to_json(func: Callable[..., Any]) -> Callable[..., str]):
         result = func(*args, **kwargs)
         json_result = json.dumps(result)
         return json_result
+
     return wrapper
